@@ -27,10 +27,10 @@ public class Message {
 	private Integer id;
 
 	@Column(name = "title", length = 255, nullable = false)
-	private Integer title;
+	private String title;
 
 	@Column(name = "content", length = 255, nullable = false)
-	private Integer content;
+	private String content;
 
 	@Column(name = "created_at", length = 255, nullable = false)
 	private Timestamp created_at;
@@ -46,19 +46,19 @@ public class Message {
 		this.id = id;
 	}
 
-	public Integer getTitle() {
+	public String getTitle() {
 		return title;
 	}
 
-	public void setTitle(Integer title) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
 
-	public Integer getContent() {
+	public String getContent() {
 		return content;
 	}
 
-	public void setContent(Integer content) {
+	public void setContent(String content) {
 		this.content = content;
 	}
 
