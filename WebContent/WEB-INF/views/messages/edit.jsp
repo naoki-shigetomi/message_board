@@ -19,13 +19,13 @@
 		        function confirmDestroy() {
 		            if(confirm("本当に削除してよろしいですか？")) {
 		                document.forms[1].submit();
-				</script>
+		            }
+		        }
+		        </script>
 			</c:when>
 			<c:otherwise>
 				<h2>お探しのデータは見つかりませんでした。</h2>
 			</c:otherwise>
 		</c:choose>
-		}
-	}
     </c:param>
 </c:import>
